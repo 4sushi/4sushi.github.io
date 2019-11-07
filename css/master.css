@@ -1,0 +1,136 @@
+@font-face { font-family: "Meslo LG"; src: local("Meslo LG S"), url("MesloLGS-Regular.ttf") format("truetype"); font-style: normal; }
+
+body{
+  font-family: "DejaVu Sans Mono", "Menlo", "Meslo LG", "Courier New", arial;
+  padding: 0; margin: 0;
+  color : #000;
+}
+
+nav{
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome and Opera */
+}
+
+nav ul li{
+  font-size: 16px;
+  color : #222;
+  float: left;
+  padding: 0 10px 0 0;
+  margin: 0;
+}
+
+nav ul li.title{
+  letter-spacing: 1px;
+  margin: 0 10px 0 0;
+}
+
+
+nav ul li a:hover{
+  border-bottom: 2px solid #ececec;
+}
+
+nav ul li a.select{
+  border-bottom: 2px solid #ececec;
+}
+
+section{
+  width: 500px;
+  margin: auto;
+  font-size: 14px;
+}
+
+section .home{
+  position: fixed;;
+  left: 50%; top: 50%;
+  width: 150px;
+  height: 60px;
+  margin: -30px 0 0 -75px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 35px;
+}
+
+section ul li{
+  margin-bottom: 10px;
+}
+
+section ul li a:hover{
+  border-bottom: 2px solid #ececec;
+}
+
+section .tag{
+	color: #fff;
+	background-color: #4a4a4a;
+	font-weight: 600;
+	display: inline-block;
+	margin: 15px 0 10px 0;
+	padding: 3px 6px;
+	font-size: 15px;
+}
+
+section .lightgallery img{
+	margin : 0px auto;
+  padding: 0px;
+  display: block;
+  max-height : 180px;
+}
+
+section .lightgallery a{
+  width: 240px; height : 180px;
+  display: inline-block;
+  margin: 3px;
+  padding: 0px;
+  background: black;
+}
+
+h3{
+  padding: 20px 0 5px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+p{
+   text-align: justify;
+}
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  cursor : pointer;
+}
+
+ul{
+  list-style: none;
+  padding: 0; margin: 0;
+}
+
+ul li{
+  list-style: none;
+}
+
+.clear{
+  clear: both;
+}
+
+.link{
+  color : #0E9EA5;
+  text-decoration: underline;
+}
+
+.grey{
+  color : #bbb;
+}
+
+span.keyword{
+  border: 1px solid black;
+  padding: 2px;
+  line-height: 30px;
+}

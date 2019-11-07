@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./build"
+  },
+  "exclude" : [
+    "./build",
+    "./node_modules",
+    "./cli",
+    "./src/db",
+    "./test" // TODO : delete later
+  ]
+}

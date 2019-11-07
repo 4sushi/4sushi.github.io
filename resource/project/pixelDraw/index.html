@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Pixel Draw</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+	   <link rel="stylesheet" media="screen" type="text/css" href="assets/css/colorpicker.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="assets/js/libs/html5.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+
+    <nav id="topMenu">
+        <div class="title"><i class="fa fa-pencil fa-lg"></i> Pixel Draw</div>
+    </nav>
+
+    <section id="home">
+
+        <div class="draw">
+            <canvas id="canvas" width="404px" height="404px">
+                Update your navigator.
+            </canvas>
+        </div>
+
+		<nav id="rightMenu">
+			<ul>
+				<li>
+				    <a class="new" title="New draw" alt="New draw"><i class="fa fa-file-o fa-lg"></i></a>
+				</li>
+        <li>
+            <a  class="pixelCenter" title="Center point" alt="Center point"><i class="fa fa-plus-square-o fa-lg"></i> </a>
+        </li>
+				<li>
+				    <a class="erase" title="Gum" alt="Gum"><i class="fa fa-eraser fa-lg"></i></a>
+				</li>
+				<li>
+				    <a class="symetrie X" title="Horizontal symmetry" alt="Horizontal symmetry"><i class="fa fa-random fa-lg fa-rotate-90"></i> </a>
+				</li>
+				<li>
+				    <a class="symetrie Y" title="Vertical symmetry" alt="Vertical symmetry"><i class="fa fa-random fa-lg"></i> </a>
+				</li>
+				<li>
+				    <div class="mainColor" id="colorSelector"></div>
+				</li>
+				<li class="histosColor">
+					<div class="histoColor"></div> <div class="histoColor"></div>
+					<div class="histoColor"></div> <div class="histoColor"></div>
+					<div class="histoColor"></div> <div class="histoColor"></div>
+					<div class="histoColor"></div> <div class="histoColor"></div>
+					<div class="histoColor"></div> <div class="histoColor"></div>
+					<div class="histoColor"></div> <div class="histoColor"></div>
+					<div class="histoColor"></div> <div class="histoColor"></div>
+					<div class="histoColor"></div> <div class="histoColor"></div>
+					<div class="histoColor"></div> <div class="histoColor"></div>
+				</li>
+			</ul>
+		</nav>
+
+
+		<nav id="bottomMenu">
+			<ul>
+		        <li><a class="post png">Dowaload PNG</a></li>
+            <li><a class="post jpg">Dowaload JPG</a></li>
+		    </ul>
+		</nav>
+
+    </section>
+
+</body>
+</html>
+
+<!-- Librairies (l'ordre compte) -->
+<script src="assets/js/libs/jquery.js"></script>
+<script type="text/javascript" src="assets/js/libs/colorpicker.js"></script>
+<script data-main="assets/js/app.js"  src="assets/js/libs/require.js"></script>
