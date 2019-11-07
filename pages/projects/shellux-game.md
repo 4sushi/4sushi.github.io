@@ -10,10 +10,6 @@ A multiplayer browser-based game, in command line. The goal of the game is to de
 
 ### Links
 
-* __Kickstarter project__: [https://www.kickstarter.com/projects/1554154284/shellux-game-simple-mmorpg-in-command-line](https://www.kickstarter.com/projects/1554154284/shellux-game-simple-mmorpg-in-command-line)
-* Server side code source: XXX
-
-
 <ul>
   <li><b>Kickstarter project</b> : <a class="link" target="_blank" href="https://www.kickstarter.com/projects/1554154284/shellux-game-simple-mmorpg-in-command-line">https://www.kickstarter.com/projects/1554154284/shellux-game-simple-mmorpg-in-command-line</a></li>
   <li><b>Server side source code</b> : <a class="link" target="_blank" href="https://github.com/4sushi/4sushi.github.io/tree/master/resource/project/shellux">https://github.com/4sushi/4sushi.github.io/tree/master/resource/project/shellux</a></li>
