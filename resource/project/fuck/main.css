@@ -41,23 +41,27 @@ body{
 .center{
   position: absolute;
   margin: auto;
+  padding: 0;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  max-width: 300px;
-  min-width: 100px;
+  width: 400px;
   height: 80px;
+  overflow: hidden;
 }
 
 .center .input-block{
-  width: 100%;
+  margin: 0 5px;
   height: 40px;
   background: none;
   text-align: center;
   font-size: 20px;
   font-family: "Meslo LG";
   border : 2px solid black;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
   color : black;
   position: relative;
   overflow: hidden;
@@ -201,3 +205,10 @@ body.level10{
   100% { opacity: 1.0; }
 }
 
+@media screen and (max-width: 640px) {
+  
+  .center{
+    width: 100%;
+  }
+
+}
