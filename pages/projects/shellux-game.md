@@ -22,8 +22,9 @@ A multiplayer browser-based game, in command line. The goal of the game is to de
 <span class="keyword">ajax</span> 
 <span class="keyword">socket.io</span>
 <span class="keyword">nodejs</span> 
-<span class="keyword">API</span> 
 <span class="keyword">mongooseJS</span>
+<span class="keyword">API</span> 
+<span class="keyword">ES6</span>
 <span class="keyword">expressJS</span> 
 <span class="keyword">winston</span>
 <span class="keyword">mocha</span> 
