@@ -9,7 +9,7 @@ We collect and cross-reference many data sources to find relationships between d
 ### Links
 
 <ul>
-  <li><b>Demo online</b> : <a class="link" target="_blank" href="http://52.31.30.42/">http://52.31.30.42/</a></li>
+  <li><b>Demo online</b> : <a class="link" target="_blank" href="https://patapouf.io">https://patapouf.io</a></li>
 </ul>
 
 
