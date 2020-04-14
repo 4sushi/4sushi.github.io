@@ -17,6 +17,14 @@ router
       loadMarkdown('#main', 'pages/projects/'+params.project+'.md');
     }
   })
+  .on('articles', function (params) {
+    loadMarkdown('#main', 'pages/articles.md');
+  })
+  .on('articles/:article', function (params) {
+    if(params && params.article){
+      loadMarkdown('#main', 'pages/articles/'+params.article+'.md');
+    }
+  })
   .on('about', function (params) {
     loadHTML('#main', 'pages/about.html');
   })
