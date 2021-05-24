@@ -90,6 +90,13 @@ section .lightgallery a{
   background: black;
 }
 
+
+section .bloc-img-note{
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+
 h3{
   padding: 20px 0 5px 0;
   border-bottom: 1px solid #ececec;
